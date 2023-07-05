@@ -41,7 +41,7 @@ public class CalculatorTest {
     public void div(){
         double res= cal.divide(10,0);
         Assert.assertEquals(0,res,0.0002);
-    }git 
+    }
 
   }
 
