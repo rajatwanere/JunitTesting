@@ -32,6 +32,16 @@ public class CalculatorTest {
         Calculator cal=new Calculator();
         Assert.assertEquals(5,cal.sub(10,5));
     }
+    @Test
+    public void multi(){
+        Calculator cal=new Calculator();
+        Assert.assertEquals(20,cal.mul(5,4));
+    }
+    @Test
+    public void div(){
+        double res= cal.divide(10,0);
+        Assert.assertEquals(0,res,0.0002);
+    }git 
 
   }
 
